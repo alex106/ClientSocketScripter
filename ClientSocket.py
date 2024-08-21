@@ -26,9 +26,14 @@ def send_json_to_server(ip, port, filename):
             sys.exit(1)
         with open(filename, 'r') as json_file:
             json_data = json.load(json_file)
-            
-        # Read list of file names from Json 
-        files = json_data['files']
+        
+        # Check if the JSON data contains the files tag
+        if 'files' in json_data:
+            # Read list of file names from Json 
+            files = json_data['files']
+        else:
+            if 'CommandList' in json_data:
+                files = files = {file: None for file in json_data['CommandList']}
 
         # Read each json file and send to server
         for file, timeout in files.items():
