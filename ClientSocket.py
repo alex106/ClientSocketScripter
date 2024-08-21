@@ -20,6 +20,10 @@ def send_json_to_server(ip, port, filename):
         # with open(filename, "w") as json_file:
         #     json.dump(my, json_file, indent=4)
         # Read the JSON data from the file
+        # Check if the file exists
+        if not os.path.exists(filename):
+            print(f"Error: {os.path.abspath(filename)} not found.")
+            sys.exit(1)
         with open(filename, 'r') as json_file:
             json_data = json.load(json_file)
             
@@ -77,7 +81,9 @@ def main( args_val ):
     ip = args_val.host
     port = int(args_val.port)
     # Check directory exist
-    
+    if not os.path.exists(args_val.dir):
+        print(f"Error: {args_val.dir} not found.")
+        sys.exit(1)
     os.chdir(args_val.dir)
     filename = os.path.join(args_val.dir,args_val.file)
 
