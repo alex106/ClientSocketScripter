@@ -34,9 +34,14 @@ def send_json_to_server(ip, port, filename):
         else:
             if 'CommandList' in json_data:
                 files = files = {file: None for file in json_data['CommandList']}
-
+        skip = False
+        item_count = len(files)
         # Read each json file and send to server
         for file, timeout in files.items():
+            if skip:
+                if item_count > 1:
+                    item_count -= 1
+                    continue
             with open(file, 'r') as json_file:
                 json_data = json.load(json_file)
             # Serialize the JSON data
@@ -61,7 +66,10 @@ def send_json_to_server(ip, port, filename):
                 # Check if the error code is not 0
                 if jresponse['C004']['T00A'] != "0":
                     print(f"Error on {file} execution :{jresponse['C004']['T00A']} - {jresponse['C004']['T00B']}")
-                    break
+                    # Run last command in the list by skiping all other commands
+                    skip = True
+            item_count -= 1
+                    
 
             # print(f"Response from the server: {response}")
         # Close the socket
