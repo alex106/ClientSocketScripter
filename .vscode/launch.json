@@ -11,7 +11,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["--dir", "C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5392_Pass\\CNT_TwoSt", "--file", "Config.json"],
+            "args": ["--dir", "C:\\WorkDirectory\\TestSIstability\\Update", "--file", "Config.json"],
         }
     ]
 }

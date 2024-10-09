@@ -1,0 +1,55 @@
+Master card 
+	Contact
+		OneStage
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5521_0518_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5525_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5517_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5509_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5491_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5483_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5475_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5442_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5434_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5426_Pass\\CNT_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5392_Pass\\CNT_OneSt --file Config.json --sum 29900
+		TwoStage
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5521_0518_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5525_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5517_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5509_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5491_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5483_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5475_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5442_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5434_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5426_Pass\\CNT_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\ContactMastercard\\5100_5392_Pass\\CNT_TwoSt --file Config.json --sum 29900
+	Contactless
+		OneStage
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5521_0518_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5521_0419_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5525_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5517_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5509_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5491_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5483_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5475_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5442_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5434_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5426_Failed_Crush\\CTLS_OneSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5392_Pass\\CTLS_OneSt --file Config.json --sum 29900
+		TwoStage
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5521_0518_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5521_0419_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5525_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5517_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5509_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5491_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5483_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5475_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5442_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5434_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5426_Failed_Crush\\CTLS_TwoSt --file Config.json --sum 29900
+		py ClientSocket.py --dir C:\\Users\\PostolovA\\Downloads\\Shav_Test_Cards_JSON2\\Contactless\\5100_5392_Pass\\CTLS_TwoSt --file Config.json --sum 29900
+Update
+		py ClientSocket.py --dir C:\\WorkDirectory\\TestSIstability\\Update --file Config.json
