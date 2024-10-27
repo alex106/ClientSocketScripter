@@ -53,8 +53,9 @@ def send_json_to_server(ip, port, filename, constuid, sum):
                 time.sleep(timeout)
             # Send the serialized JSON data to the server
             client_socket.sendall(serialized_json.encode())
+            print(f"JSON {file} sent bytes {len(serialized_json)}.")
             # Receive the response from the server
-            response = client_socket.recv(3*1024).decode('utf-8')
+            response = client_socket.recv(10*1024).decode('utf-8')
             # Serialize the response into JSON
             jresponse = json.loads(response)
             # Remove the file extension
@@ -62,6 +63,7 @@ def send_json_to_server(ip, port, filename, constuid, sum):
             #overwrite response to file
             with open(f"{fname}_response.json", 'w', encoding='utf-8') as json_file:
                 json.dump(jresponse, json_file, ensure_ascii=False, indent=4)
+            print(f"Response received file:{fname}_response.json bytes {len(response)}.")
             # Check the error code tag is exist and contains the response
             
             if 'C004' in jresponse:
